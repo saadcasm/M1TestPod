@@ -31,7 +31,7 @@
 		1A73E0AC7070EFF8518B8729 /* Pods_M1TestPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1TestPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		269C2D5673DD062021A9CB03 /* Pods-M1TestPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1TestPod_Example.release.xcconfig"; path = "Target Support Files/Pods-M1TestPod_Example/Pods-M1TestPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		270DEBC836A85D454F1B3677 /* Pods-M1TestPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1TestPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-M1TestPod_Tests/Pods-M1TestPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5311C3B778360FC733FCDD1B /* M1TestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = M1TestPod.podspec; path = ../M1TestPod.podspec; sourceTree = "<group>"; };
+		5311C3B778360FC733FCDD1B /* M1TestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = M1TestPod.podspec; path = ../M1TestPod.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* M1TestPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M1TestPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		713832D8BBCBABFF3D999253 /* Pods-M1TestPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1TestPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-M1TestPod_Example/Pods-M1TestPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73508822CB39FEBFD4468320 /* Pods-M1TestPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1TestPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-M1TestPod_Tests/Pods-M1TestPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CBCE8FD6AFDE23ABCC9D6E5 /* Pods_M1TestPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1TestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B35D98C7326DCF89C56F8DB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E00CAC55EFE3CA0C5A72ADAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B35D98C7326DCF89C56F8DB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E00CAC55EFE3CA0C5A72ADAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				270DEBC836A85D454F1B3677 /* Pods-M1TestPod_Tests.debug.xcconfig */,
 				73508822CB39FEBFD4468320 /* Pods-M1TestPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
