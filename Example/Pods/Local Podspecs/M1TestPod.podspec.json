@@ -1,0 +1,22 @@
+{
+  "name": "M1TestPod",
+  "version": "0.1.0",
+  "summary": "A short description of M1TestPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/saadcasm/M1TestPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "saadcasm": "saad.sadiq@nextgeni.com"
+  },
+  "source": {
+    "git": "https://github.com/saadcasm/M1TestPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "M1TestPod/Classes/**/*"
+}
